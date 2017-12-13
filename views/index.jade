@@ -1,0 +1,61 @@
+extends layout
+
+
+
+block content
+
+    h1= title
+
+    p Welcome to Steve's MediaCenterJS Anonymous User Metrics
+
+
+
+    // Wrapper
+
+    #wrapper
+
+
+
+        // USER INFO
+
+        #userInfo
+
+            h2 User Info
+
+            p
+
+                strong UserID:
+
+                |  <span id='userID'></span>
+
+                br
+
+                strong SessionID:
+
+                |  <span id='SessionID'></span>
+
+                br
+
+                strong FsURL:
+
+                |  <span id='FsURL'></span>
+
+                br
+
+                strong Created Time:
+
+                |  <span id='CreatedTime'></span>
+
+        // USER INFO
+
+        // ADD USER
+
+        h2 Pull User Data
+        #addUser
+                button#btnAddUser Pull Most Recent User Data
+
+        // /ADD USER
+
+
+
+    // /WRAPPER
